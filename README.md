@@ -1,1 +1,1 @@
-Landing page for www.openagua.org. Built with Jekyll.
+Landing page for www.openagua.org. Built with [Jekyll](https://jekyllrb.com/).
