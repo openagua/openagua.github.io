@@ -1,1 +1,1 @@
-Landing page for www.openagua.org.
+Landing page for www.openagua.org. Built with Jekyll.
