@@ -9,21 +9,9 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/assets/css/layout.css"/>
-    <link rel="stylesheet" href="/assets/css/user.css"/>
-    <link rel="stylesheet" href="/assets/css/theme.css"/>
-
-    <!--jQuery-->
-    <script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-
     <!--Bootstrap-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" media="all"
           rel="stylesheet" type="text/css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css"
           integrity="sha384-QokYePQSOwpBDuhlHOsX0ymF6R/vLk/UQVz3WHa6wygxI5oGTmDTv8wahFOSspdm"
@@ -37,7 +25,7 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
 
-    <link href="/assets/css/landing-page.css" media="all" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/css/index.css">
 
     {% include navbar.html %}
 
@@ -45,7 +33,7 @@
 
 <body>
 
-    {{ content }}
+{{ content }}
 
 <footer class="footer">
     <div class="container">
@@ -57,22 +45,22 @@
 
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "content": {
-    "message": "This website uses cookies to keep you logged in.",
-    "dismiss": "Got it!",
-    "link": "Learn more",
-    "href": "/cookies"
-  }
-});
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#000"
+            },
+            "button": {
+                "background": "#f1d600"
+            }
+        },
+        "content": {
+            "message": "This website uses cookies to keep you logged in.",
+            "dismiss": "Got it!",
+            "link": "Learn more",
+            "href": "/cookies"
+        }
+    });
 </script>
 
 </body>

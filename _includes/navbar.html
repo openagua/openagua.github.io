@@ -1,9 +1,9 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand oa-navbar-brand" href="/">
+            <a class="navbar-brand brand" href="/">
                 <img height="25" width="25" src="/assets/images/logo.svg" alt="logo">
-                <span class="oa-app-name">{{ config["APP_NAME"] }}</span>
+                <span class="app-title">{{ site.title }}</span>
             </a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-index"
                     aria-expanded="false" aria-controls="navbar">
@@ -12,10 +12,10 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-index">
             <ul class="nav navbar-nav navbar-right" style="display:flex;">
-                <li class="nav-item"><a class="nav-link" href="http://docs.openagua.org">Docs</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ site.docs_url }}">Docs</a></li>
 <!--                <li class="nav-item"><a class="nav-link" href="http://openagua.wordpress.com">Blog</a></li>-->
-                <li class="nav-item"><a class="nav-link" href="{{config['OA_AUTH_ORIGIN']}}/register">Create account</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{config['OA_AUTH_ORIGIN']}}/login">Sign in</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ site.app_url }}/register">Create account</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ site.app_url }}/login">Sign in</a></li>
             </ul>
         </div>
     </div>
