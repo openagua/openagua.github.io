@@ -3,19 +3,30 @@
  */
 
 .navbar {
-  background-color: #fff;
-  box-shadow: 0 0 3px grey;
+  background-color: #F3F8FFFF;
+  box-shadow: 0 0 1px grey;
+  height: 75px;
+
+  @media (min-width: 768px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
   .brand {
     display: flex;
     align-items: center;
 
     .app-title {
-      margin-left: 8px;
-      color: #369;
-      font-size: larger;
+      margin-left: 15px;
+      color: #3f85c6;
+      font-size: x-large;
+      //font-weight: bold;
     }
 
+  }
+
+  .nav-item {
+    margin-left: 8px;
   }
 
 }
@@ -26,16 +37,4 @@
 
 .navbar-toggle i {
   color: grey
-}
-
-.language {
-  position: absolute;
-  top: 10px
-}
-
-.language button {
-  border-color: black !important;
-  background-color: grey !important;
-  height: 30px;
-  padding: 5px;
 }

@@ -1,21 +1,16 @@
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar fixed-top navbar-expand-lg">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <a class="navbar-brand brand" href="/">
-                <img height="25" width="25" src="/assets/images/logo.svg" alt="logo">
-                <span class="app-title">{{ site.title }}</span>
-            </a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-index"
-                    aria-expanded="false" aria-controls="navbar">
-                <i class="fa fa-bars"></i>
-            </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-index">
-            <ul class="nav navbar-nav navbar-right" style="display:flex;">
+        <a class="navbar-brand brand" href="/">
+            <img height="25" width="25" src="/assets/images/logo.svg" alt="logo">
+            <span class="app-title">{{ site.title }}</span>
+        </a>
+        <div/>
+        <div class="collapse navbar-collapse me-auto mb-2 mb-lg-0 d-flex">
+            <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="{{ site.docs_url }}">Docs</a></li>
-<!--                <li class="nav-item"><a class="nav-link" href="http://openagua.wordpress.com">Blog</a></li>-->
+                <!--                <li class="nav-item"><a class="nav-link" href="http://openagua.wordpress.com">Blog</a></li>-->
                 <li class="nav-item"><a class="nav-link" href="{{ site.app_url }}/register">Create account</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ site.app_url }}/login">Sign in</a></li>
+                <li class="nav-item"><a class="btn btn-outline-primary" style="margin-left: 12px" href="{{ site.app_url }}/login">Sign in</a></li>
             </ul>
         </div>
     </div>

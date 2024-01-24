@@ -1,0 +1,15 @@
+- name: Rockefeller Foundation
+  img: rockefeller-foundation.png
+  url: https://www.rockefellerfoundation.org
+
+- name: CITRIS
+  img: citris.png
+  url: https://citris-uc.org
+
+- name: AWS Research Credits
+  img: PB_AWS_logo_RGB.jpg
+  url: https://aws.amazon.com/research-credits
+
+- name: Centro
+  img: centrodelagua.jpg
+  url: https://www.centrodelagua.org/home.aspx

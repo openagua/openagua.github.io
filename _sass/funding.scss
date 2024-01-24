@@ -1,13 +1,15 @@
-.team-grid {
+.funding {
   color:#313437;
   background-color:#fff;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
-.team-grid p {
+.funding p {
   color:#7d8285;
 }
 
-.team-grid h2 {
+.funding h2 {
   font-weight:bold;
   margin-bottom:40px;
   padding-top:40px;
@@ -15,32 +17,32 @@
 }
 
 @media (max-width:767px) {
-  .team-grid h2 {
+  .funding h2 {
     margin-bottom:25px;
     padding-top:25px;
     font-size:24px;
   }
 }
 
-.team-grid .intro {
+.funding .intro {
   font-size:16px;
   max-width:500px;
   margin:0 auto;
 }
 
-.team-grid .intro p {
+.funding .intro p {
   margin-bottom:0;
 }
 
-.team-grid .people {
+.funding .people {
   padding:50px 0;
 }
 
-.team-grid .item {
+.funding .item {
   margin-bottom:30px;
 }
 
-.team-grid .item .box {
+.funding .item .box {
   text-align:center;
   background-repeat:no-repeat;
   background-size:cover;
@@ -50,7 +52,7 @@
   overflow:hidden;
 }
 
-.team-grid .item .cover {
+.funding .item .cover {
   position:absolute;
   top:0;
   left:0;
@@ -64,16 +66,16 @@
   text-shadow:1px 1px 1px rgba(0,0,0,0.15);
 }
 
-.team-grid .item:hover .cover {
+.funding .item:hover .cover {
   opacity:1;
 }
 
-.team-grid .item .name {
+.funding .item .name {
   font-weight:bold;
   margin-bottom:8px;
 }
 
-.team-grid .item .title {
+.funding .item .title {
   text-transform:uppercase;
   font-weight:bold;
   color:#bbd8fb;
@@ -82,18 +84,24 @@
   margin-bottom:20px;
 }
 
-.team-grid .social {
+.funding .social {
   font-size:18px;
 }
 
-.team-grid .social a {
+.funding .social a {
   color:inherit;
   margin:0 10px;
   display:inline-block;
   opacity:0.7;
 }
 
-.team-grid .social a:hover {
+.funding .social a:hover {
   opacity:1;
+}
+
+.funding {
+  img {
+    width: 100%;
+  }
 }
 
