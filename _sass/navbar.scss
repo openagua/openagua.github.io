@@ -1,40 +1,40 @@
-/*
- * Navbar
- */
-
-.navbar {
-  background-color: #F3F8FFFF;
-  box-shadow: 0 0 1px grey;
-  height: 75px;
-
-  @media (min-width: 768px) {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  .brand {
-    display: flex;
-    align-items: center;
-
-    .app-title {
-      margin-left: 15px;
-      color: #3f85c6;
-      font-size: x-large;
-      //font-weight: bold;
-    }
-
-  }
-
-  .nav-item {
-    margin-left: 8px;
-  }
-
-}
-
-.navbar-toggle {
-  background-color: lightgrey;
-}
-
-.navbar-toggle i {
-  color: grey
-}
+///*
+// * Navbar
+// */
+//
+//.navbar {
+//  background-color: #F3F8FFFF;
+//  box-shadow: 0 0 1px grey;
+//  height: 75px;
+//
+//  @media (min-width: 768px) {
+//    padding-left: 50px;
+//    padding-right: 50px;
+//  }
+//
+//  .brand {
+//    display: flex;
+//    align-items: center;
+//
+//    .app-title {
+//      margin-left: 15px;
+//      color: #3f85c6;
+//      font-size: x-large;
+//      //font-weight: bold;
+//    }
+//
+//  }
+//
+//  .nav-item {
+//    margin-left: 8px;
+//  }
+//
+//}
+//
+//.navbar-toggle {
+//  background-color: lightgrey;
+//}
+//
+//.navbar-toggle i {
+//  color: grey
+//}
